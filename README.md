@@ -7,13 +7,14 @@ The system combines **deep learning (CNN/Transformer)** models with **temporal c
 ---
 
 ## 🧩 Repository Structure
-video-colorization/
+```bash
+
+Video-Colorization/
 │
 ├── data/
 │ ├── kinetics-dataset/ # contains k400_subset.txt and downloaded .gz files
 │ ├── dataset/ # extracted videos after running download_kinetics_dataset.py
 │ 
-│
 ├── notebooks/
 │ └── inspect_kinetics_dataset.ipynb # verifies video count & previews one sample
 │
@@ -30,23 +31,24 @@ video-colorization/
 ├── docs/ # diagrams, mockups, report visuals
 ├── requirements.txt
 └── README.md
-
-
----
-
-## ⚙️ Environment Setup
-
-### 1️⃣ Create Environment
-```bash
-conda create -n video_color_ev python=3.10 -y
-conda activate video_color_ev
-pip install -r requirements.txt
 ```
 
 ---
-## Clone the project Repository
+
+## ⚙️ Project Setup
+
+### Create Environment
+```bash
+conda create -n video_color_ev python=3.10 -y
+conda activate video_color_ev
+```
+
+### Clone the project Repository
 ```bash
 git clone https://github.com/UF-EEE6778-Fall25/Video-Colorization.git
 cd Video-Colorization
+pip install -r requirements.txt
+```
+
 
 
