@@ -41,7 +41,7 @@ video-colorization/
 conda create -n video_color_ev python=3.10 -y
 conda activate video_color_ev
 pip install -r requirements.txt
-
+```
 
 ---
 ## Clone the project Repository
