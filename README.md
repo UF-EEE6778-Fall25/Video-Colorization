@@ -33,8 +33,6 @@ Video-Colorization/
 └── README.md
 ```
 
----
-
 ## ⚙️ Project Setup
 
 ### Create Environment
@@ -48,6 +46,22 @@ conda activate video_color_ev
 git clone https://github.com/UF-EEE6778-Fall25/Video-Colorization.git
 cd Video-Colorization
 pip install -r requirements.txt
+```
+
+### Download & Visualize the Kinetics400 Dataset
+```bash
+python src/download_kinetics_dataset.py
+jupyter notebook notebooks/inspect_kinetics_dataset.ipynb
+```
+
+### Model Training
+```bash
+To be added..
+```
+
+### Inference and UI
+```bash
+To be added..
 ```
 
 
