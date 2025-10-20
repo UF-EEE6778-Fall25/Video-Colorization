@@ -71,6 +71,8 @@ To be added..
 -  Size: ~20–30 GB for 10 subsets (each 2–3 GB)
 -  Usage: Used to train models that understand motion, context, and object color cues.
 
+> **Note:** Downloading & extracting the Dataset will take atleast 20 minutes.
+
 
 ## System Requirements
 
@@ -93,7 +95,7 @@ and .ipynb notebooks from Jupyter Notebook or VS Code Notebook interface.
 -  GPU with ≥ 6GB VRAM (recommended for training)
 -  30–40 GB free storage for dataset and extracted videos
 
-> **Note:** Downloading & extracting the Dataset wil take maximum of 20 minutes.
+
 
 
 
