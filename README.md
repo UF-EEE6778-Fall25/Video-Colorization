@@ -1,8 +1,7 @@
 # 🎨 Video Colorization
 
 ## 📘 Project Overview
-This project implements an **deep learning based video colorization pipeline** that learns to colorize grayscale videos using the large-scale **Kinetics-600** dataset.  
-The system combines **deep learning (CNN/Transformer)** models with **temporal consistency** and a lightweight **Streamlit UI** for interactive visualization.
+This project implements an **deep learning based video colorization pipeline** that learns to colorize grayscale videos using the large-scale **Kinetics-400** dataset. The system combines **deep learning (CNN/Transformer)** models with **temporal consistency** and a lightweight **Streamlit UI** for interactive visualization.
 
 ---
 
@@ -48,18 +47,18 @@ cd Video-Colorization
 pip install -r requirements.txt
 ```
 
-### Download & Visualize the Kinetics400 Dataset
+### 3️⃣ Download & Visualize the Kinetics400 Dataset
 ```bash
 python src/download_kinetics_dataset.py
 jupyter notebook notebooks/inspect_kinetics_dataset.ipynb
 ```
 
-### Model Training
+### 4️⃣ Model Training
 ```bash
 To be added..
 ```
 
-### Inference and UI
+### 5️⃣ Inference and UI
 ```bash
 To be added..
 ```
@@ -73,7 +72,7 @@ To be added..
 -  Usage: Used to train models that understand motion, context, and object color cues.
 
 
-## Notes & System Requirements
+## System Requirements
 
 ### Recommended Setup
 To run this repository smoothly, ensure you have one of the following:
@@ -84,6 +83,9 @@ To run this repository smoothly, ensure you have one of the following:
     -  GPU support (if available)
     -  Integrated terminal for running .py and .ipynb files simultaneously
 
+> Run .py files (e.g., download or training scripts) from the terminal,
+and .ipynb notebooks from Jupyter Notebook or VS Code Notebook interface.
+
 ### Basic Requirements
 
 -  Python ≥ 3.10
@@ -91,11 +93,7 @@ To run this repository smoothly, ensure you have one of the following:
 -  GPU with ≥ 6GB VRAM (recommended for training)
 -  30–40 GB free storage for dataset and extracted videos
 
-> **Note**:
--  Run .py files (e.g., download or training scripts) from the terminal,
-and .ipynb notebooks from Jupyter Notebook or VS Code Notebook interface.
-
--  Downloading & extracting the Dataset wil take maximum of 20 minutes.
+> **Note:** Downloading & extracting the Dataset wil take maximum of 20 minutes.
 
 
 
