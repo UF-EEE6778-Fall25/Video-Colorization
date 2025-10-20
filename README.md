@@ -95,7 +95,13 @@ and .ipynb notebooks from Jupyter Notebook or VS Code Notebook interface.
 -  GPU with ≥ 6GB VRAM (recommended for training)
 -  30–40 GB free storage for dataset and extracted videos
 
+---
 
+## 👩‍💻 Author
+**Santhi Daggubati**  
+*M.S. in Applied Data Science, University of Florida*  
 
-
-
+📧 **Email:** daggubati.santhi@ufl.edu  
+🌐 **Website:** [Protfolio](https://72santhi.github.io/Portfolio/)  
+💼 **GitHub:** [72santhi](https://github.com/72santhi)  
+🔗 **LinkedIn:** [Santhi Daggubati](https://www.linkedin.com/in/Santhi37911/)
