@@ -35,13 +35,13 @@ Video-Colorization/
 
 ## ⚙️ Project Setup
 
-### Create Environment
+### 1️⃣ Create Environment
 ```bash
 conda create -n video_color_ev python=3.10 -y
 conda activate video_color_ev
 ```
 
-### Clone the project Repository
+### 2️⃣ Clone the project Repository
 ```bash
 git clone https://github.com/UF-EEE6778-Fall25/Video-Colorization.git
 cd Video-Colorization
@@ -63,6 +63,37 @@ To be added..
 ```bash
 To be added..
 ```
+
+## 📊 Dataset Description
+-  Dataset: [Kinetics-400](https://github.com/cvdfoundation/kinetics-dataset) (subset version)
+-  Source: DeepMind / Google Research
+-  Type: Short human action videos (~10 seconds each)
+-  Format: .mp4 compressed clips inside .tar.gz archives
+-  Size: ~20–30 GB for 10 subsets (each 2–3 GB)
+-  Usage: Used to train models that understand motion, context, and object color cues.
+
+
+## Notes & System Requirements
+
+### Recommended Setup
+To run this repository smoothly, ensure you have one of the following:
+
+-  Anaconda / Miniconda installed (for managing Python environments)
+-  VS Code or JupyterLab configured with:
+    -  Python and Jupyter extensions
+    -  GPU support (if available)
+    -  Integrated terminal for running .py and .ipynb files simultaneously
+
+### Basic Requirements
+
+-  Python ≥ 3.10
+-  Conda ≥ 23.x or pip ≥ 23.x
+-  GPU with ≥ 6GB VRAM (recommended for training)
+-  30–40 GB free storage for dataset and extracted videos
+
+> Note:
+Run .py files (e.g., download or training scripts) from the terminal,
+and .ipynb notebooks from Jupyter Notebook or VS Code Notebook interface.
 
 
 
