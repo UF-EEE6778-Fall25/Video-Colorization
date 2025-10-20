@@ -91,9 +91,11 @@ To run this repository smoothly, ensure you have one of the following:
 -  GPU with ≥ 6GB VRAM (recommended for training)
 -  30–40 GB free storage for dataset and extracted videos
 
-> Note:
-Run .py files (e.g., download or training scripts) from the terminal,
+> **Note**:
+-  Run .py files (e.g., download or training scripts) from the terminal,
 and .ipynb notebooks from Jupyter Notebook or VS Code Notebook interface.
+
+-  Downloading & extracting the Dataset wil take maximum of 20 minutes.
 
 
 
