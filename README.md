@@ -83,10 +83,10 @@ jupyter notebook src/video_colorization.ipynb
   </tr>
   <tr>
     <td>
-      <video src="https://github.com/UF-EEE6778-Fall25/Video-Colorization/blob/main/results/gray_test_videos/tv1.mp4" width="360" controls></video>
+      <video src="assests/tv2.mp4" width="360" controls></video>
     </td>
     <td>
-      <video src="https://github.com/UF-EEE6778-Fall25/Video-Colorization/blob/main/results/colorized_test_videos/colorized_tv1.mp4" width="360" controls></video>
+      <video src="assests/colorized_tv2.mp4" width="360" controls></video>
     </td>
   </tr>
 </table>
