@@ -83,10 +83,10 @@ jupyter notebook src/video_colorization.ipynb
   </tr>
   <tr>
     <td>
-      <video src="assets/tv2.mp4" width="320" autoplay loop muted playsinline></video>
+      <video src="assests/tv2.mp4" width="320" autoplay loop muted playsinline></video>
     </td>
     <td>
-      <video src="assets/colorized_tv2.mp4" width="320" autoplay loop muted playsinline></video>
+      <video src="assests/colorized_tv2.mp4" width="320" autoplay loop muted playsinline></video>
     </td>
   </tr>
 </table>
