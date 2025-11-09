@@ -1,7 +1,7 @@
 # 🎨 Video Colorization
 
 ## 📘 Project Overview
-This project implements an **deep learning based video colorization pipeline** that learns to colorize grayscale videos using the large-scale **Kinetics-400** dataset. The system combines **deep learning (CNN/Transformer)** models with **temporal consistency** and a lightweight **Streamlit UI** for interactive visualization.
+This project implements an **deep learning based video colorization pipeline** that learns to colorize grayscale videos using the large-scale **Kinetics-400** dataset. The system combines **deep learning (CNN/Transformer)** models with **temporal consistency** and a lightweight **Gradio UI** for interactive visualization.
 
 ---
 
@@ -19,15 +19,25 @@ Video-Colorization/
 │
 ├── src/
 │ ├── download_kinetics.py # downloads & extracts dataset automatically
-│ ├── data_loader.py # helper functions for reading frames
-│ ├── preprocess.py # frame normalization & grayscale conversion
-│ ├── model.py # colorization network (CNN/U-Net/Transformer)
-│ ├── train.py # training script
-│ ├── inference.py # inference + video reconstruction
-│ └── ui/app.py # Streamlit interactive interface
+│ ├── video_colorization.ipynb # data preprocessing, model training, evaluation & GRADIO Interface
 │
-├── results/ # sample colorized outputs 
-├── docs/ # diagrams, mockups, report visuals
+├── results/ # sample colorized outputs
+│ ├── checkpoints # model best weights' (.pt file)
+│ ├── gray_test_videos # test videos downloaded from the internet
+│     ├── tv1.mpv4
+│     ├── tv2.mpv4
+│     └── tv3.mpv4
+│ ├── colorized_test_videos # predicted videos (colorized)
+│     ├── colorized_tv1.mpv4
+│     ├── colorized_tv2.mpv4
+│     └── colorized_tv3.mpv4
+│ └── gradio # interface screenshots
+│     ├── gradio_interface.png
+│     ├── test_video_uploaded.png
+│     └── test_video_colorized.png
+├── docs/ # reports
+│ ├── Project_Roadmap.pdf
+│ ├── Project_Preliminary_Report.pdf
 ├── requirements.txt
 └── README.md
 ```
@@ -55,13 +65,34 @@ jupyter notebook notebooks/inspect_kinetics_dataset.ipynb
 
 ### 4️⃣ Model Training
 ```bash
-To be added..
+jupyter notebook src/video_colorization.ipynb
 ```
 
-### 5️⃣ Inference and UI
+### 5️⃣ Gradio Inference 
 ```bash
-To be added..
+jupyter notebook src/video_colorization.ipynb
+# Inline Gradio Interface is provided in the notebook cell.
 ```
+
+## 🎨 Before vs After – Video Colorization Results
+
+<table>
+  <tr>
+    <th>Grayscale Input</th>
+    <th>Colorized Output (Our Model)</th>
+  </tr>
+  <tr>
+    <td>
+      <video src="https://github.com/UF-EEE6778-Fall25/Video-Colorization/blob/main/results/gray_test_videos/tv1.mp4" width="360" controls></video>
+    </td>
+    <td>
+      <video src="https://github.com/UF-EEE6778-Fall25/Video-Colorization/blob/main/results/colorized_test_videos/colorized_tv1.mp4" width="360" controls></video>
+    </td>
+  </tr>
+</table>
+
+> The model converts grayscale videos into vivid color using a lightweight U-Net trained on Kinetics dataset.  
+> Average metrics: **PSNR ≈ 38 dB**, **SSIM ≈ 0.98**.
 
 ## 📊 Dataset Description
 -  Dataset: [Kinetics-400](https://github.com/cvdfoundation/kinetics-dataset) (subset version)
