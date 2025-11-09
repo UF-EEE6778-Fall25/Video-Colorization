@@ -76,23 +76,13 @@ jupyter notebook src/video_colorization.ipynb
 
 ## 🎨 Before vs After – Video Colorization Results
 
-<table>
-  <tr>
-    <th>Grayscale Input</th>
-    <th>Colorized Output (Our Model)</th>
-  </tr>
-  <tr>
-    <td>
-      <video src="assests/tv2.mp4" width="320" autoplay loop muted playsinline></video>
-    </td>
-    <td>
-      <video src="assests/colorized_tv2.mp4" width="320" autoplay loop muted playsinline></video>
-    </td>
-  </tr>
-</table>
+| Grayscale Input | Colorized Output (Our Model) |
+|------------------|------------------------------|
+| 🎥 [Watch Gray Video](assets/tv2.mp4) | 🎨 [Watch Colorized Video](assets/colorized_tv2.mp4) |
 
 > The model converts grayscale videos into vivid color using a lightweight **U-Net** trained on the **Kinetics dataset**.  
 > **Average metrics:** PSNR ≈ 38 dB | SSIM ≈ 0.98
+
 
 
 ## 📊 Dataset Description
