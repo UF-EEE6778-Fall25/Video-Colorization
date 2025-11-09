@@ -78,7 +78,7 @@ jupyter notebook src/video_colorization.ipynb
 
 | Grayscale Input | Colorized Output (Our Model) |
 |------------------|------------------------------|
-| 🎥 [Watch Gray Video](assets/tv2.mp4) | 🎨 [Watch Colorized Video](assets/colorized_tv2.mp4) |
+| 🎥 [Watch Gray Video](assests/tv2.mp4) | 🎨 [Watch Colorized Video](assests/colorized_tv2.mp4) |
 
 > The model converts grayscale videos into vivid color using a lightweight **U-Net** trained on the **Kinetics dataset**.  
 > **Average metrics:** PSNR ≈ 38 dB | SSIM ≈ 0.98
