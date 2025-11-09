@@ -83,16 +83,17 @@ jupyter notebook src/video_colorization.ipynb
   </tr>
   <tr>
     <td>
-      <video src="assests/tv2.mp4" width="360" controls></video>
+      <video src="assets/tv2.mp4" width="320" autoplay loop muted playsinline></video>
     </td>
     <td>
-      <video src="assests/colorized_tv2.mp4" width="360" controls></video>
+      <video src="assets/colorized_tv2.mp4" width="320" autoplay loop muted playsinline></video>
     </td>
   </tr>
 </table>
 
-> The model converts grayscale videos into vivid color using a lightweight U-Net trained on Kinetics dataset.  
-> Average metrics: **PSNR ≈ 38 dB**, **SSIM ≈ 0.98**.
+> The model converts grayscale videos into vivid color using a lightweight **U-Net** trained on the **Kinetics dataset**.  
+> **Average metrics:** PSNR ≈ 38 dB | SSIM ≈ 0.98
+
 
 ## 📊 Dataset Description
 -  Dataset: [Kinetics-400](https://github.com/cvdfoundation/kinetics-dataset) (subset version)
