@@ -65,7 +65,7 @@ jupyter notebook notebooks/inspect_kinetics_dataset.ipynb
 
 ### 4️⃣ Model Training
 ```bash
-jupyter notebook src/video_colorization.ipynb
+jupyter notebook src/video_colorization_enhanced.ipynb
 ```
 
 ### 5️⃣ Gradio Inference 
